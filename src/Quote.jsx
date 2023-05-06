@@ -29,7 +29,7 @@ function Quote() {
   return (
     <div className="App">
          <div className="quote">
-            <h2>{quote}:</h2>
+            <h2>{quote}</h2>
             <small>-{author}-</small>
          </div><br />
 <button class="button-50" onClick={fetchNewQuote} >Generate New Quote</button>
